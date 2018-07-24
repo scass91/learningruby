@@ -4,9 +4,9 @@
 Name = "dave"
 
 def happy_birthday_to(name)
-    puts("Happy Birthday to #{name}")
-    puts("Happy Birthday to #{name}")
-    puts("Happy Birthday to #{name}")
+    3.times do
+        puts("Happy birthday to #{name}")
+    end
 end
 
 happy_birthday_to(Name)
